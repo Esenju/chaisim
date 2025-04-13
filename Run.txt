@@ -1,0 +1,6 @@
+# Terminal 1: Start Booksim
+cd booksim/
+./booksim ../configs/mesh4x4.cfg
+
+# Terminal 2: Run Gem5 with bridge
+gem5.opt configs/chiplet_system.py
