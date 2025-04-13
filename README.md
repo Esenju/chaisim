@@ -1,4 +1,4 @@
-# ChAi-Sim Decription
+ # ChAi-Sim Decription
 ChAI-Sim is an open-source simulation framework that enables researchers and Engineers to explore the interplay between chiplet interconnect configurations and AI workloads in edge computing systems.
 
 # Key Features
@@ -19,7 +19,7 @@ Custom workload support via PyTorch/TensorFlow Lite integration
 End-to-end latency, energy-per-inference, interconnect utilization, and accuracy drop.
 Thermal/power profiling (via McPAT/DSENT integration).
 
-##Test Run flow:
+# Test Run flow:
 Terminal 1: Start Booksim
 cd booksim/
 ./booksim ../configs/mesh4x4.cfg
